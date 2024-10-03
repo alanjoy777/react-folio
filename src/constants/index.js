@@ -1,7 +1,13 @@
+
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/Budget.jpg";
+import project6 from "../assets/projects/IMDb_Jobs_Header_Mobile.jpg";
+import project8 from "../assets/projects/istockphoto-1006726696-612x612.jpg";
+import project7 from "../assets/projects/positive-quotes-captions-life-motivational-inspirational-meghan-markle-498de1b0635c4bd19c8ba6d3b7494827.jpg";
+
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -10,48 +16,30 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
+    role: " MERN Stack Developer INTERN",
+    company: "LUMINAR",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+    technologies: ["Javascript", "React.js", "Express.js", "mongoDB"],
+  }
+ 
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "BMI CALCULATOR",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional Body Mass Index Calculator.",
+    technologies: ["HTML", "CSS"],
+    liveLink:"https://bmi-calculator-seven-delta.vercel.app/"
   },
   {
-    title: "Task Management App",
+    title: "Bank App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An application for managing bank accounts .",
+    technologies: ["HTML", "CSS"],
+    liveLink:"https://bank-app-two-orpin.vercel.app/"
   },
   {
     title: "Portfolio Website",
@@ -59,18 +47,49 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    liveLink:"https://react-portfolio-rho-olive.vercel.app/"
+    
   },
   {
-    title: "Blogging Platform",
+    title: "MEDIA_PLAYER",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A platform where you can manage your videos.",
+    technologies: ["HTML", "CSS", "react.js"],
+     liveLink:"https://mp-frontend-nine.vercel.app/"
   },
+  {
+      title: "BUDGET-CALCULATOR",
+      image: project5 ,
+      description:"A platform where you can calculate your Budget",
+      technologies: ["HTML", "CSS"],
+      liveLink:"https://budget-calculator-indol.vercel.app/"
+  },
+  {
+    title: "IMDB_SEARCH",
+    image:project6 ,
+    description:"A platform where you can search imdb ratings and details of a movie",
+    technologies: ["HTML", "CSS","React"],
+    liveLink:"https://budget-calculator-9847.vercel.app/ "
+},
+{
+  title: "Quote-App",
+  image:project7 ,
+  description:"A platform where you can generate random qoutes",
+  technologies: ["HTML", "CSS","React"],
+  liveLink:"https://qoute-app-two.vercel.app/ "
+},
+{
+  title: "E-cart",
+  image:project8 ,
+  description:"A platform where you can shop online",
+  technologies: ["HTML", "CSS","React","redux"],
+  liveLink:"https://e-kart-i6ou.vercel.app/ "
+},
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "xxxx (h) xxxxx  p.o ",
+  phoneNo: "+91 0987654326 ",
+  email: "alenj235@gmail.com",
 };

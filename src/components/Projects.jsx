@@ -10,7 +10,7 @@ const Projects = () => {
             PROJECTS.map((project,index)=>(
                 <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
                     <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:-100}} transition={{duration:1}}  className="w-full lg:w-1/4">
-                    <img src={project.image} width={150} height={150} className='mb-6 rounded' alt="" />
+                       <a href={project.liveLink} target='_blank'>       <img src={project.image}  width={150} height={150} className='mb-6 rounded' alt="" /></a>
                     </motion.div>
                     <motion.div whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className="w-full max-w-xl lg:3/4 text-white">
                       <h6 className='mb-2 font-semibold'>{project.title}</h6>
